@@ -1,0 +1,25 @@
+.characters__field {
+    display: flex;
+    justify-content: space-between;
+}
+
+.characters__title {
+    color: black;
+    font-size: 40px;
+}
+
+.characters__count {
+    color: gray;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.characters__items {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 650px;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
