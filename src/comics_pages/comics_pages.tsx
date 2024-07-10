@@ -46,7 +46,9 @@ type details = {
             </div>
           </div>
         </div>
-        <Footer />
+        <div className="comics_pages_footer">
+          <Footer />
+        </div>
       </div>
     );
   };

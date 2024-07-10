@@ -45,8 +45,11 @@ export const CharacterPages = () => {
             ))}
           </div>
         </div>
+
       </div>
-      <Footer />
+      <div className="character_pages__footer">
+        <Footer />
+      </div>
     </div>
   );
 };

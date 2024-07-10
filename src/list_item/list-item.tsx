@@ -28,8 +28,11 @@ export const ListItem: React.FC<ListItemProps> = ({
   return (
     <div onClick={handleClick} className="list__item">
       <img src={Image} alt="" className="list__img" />
-      <p className="list__title">{title}</p>
-      <p className="list__desciption">{description}</p>
+      <div className="list_text">
+        <p className="list__title">{title}</p>
+        <p className="list__desciption">{description}</p>
+      </div>
+
     </div>
   );
 };

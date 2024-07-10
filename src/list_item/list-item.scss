@@ -1,20 +1,37 @@
 .list__item {
     border: 2px solid black;
-    max-width: 280px;
+    width: 99%;
     height: 280px;
     color: black;
-    margin-right: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
     cursor: pointer;
-    margin-bottom: 40px
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+
 }
 .list__img {
-    width: 280px;
-    height: 150px;
+    width: 200px;
+    height: 280px;
+    display: inline-block;
+    object-fit: cover;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px
+
+}
+.list_text{
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
+    top: -210px
 }
 .list__title {
     color: red;
     font-weight: 600;
+    font-size: 30px;
+
 }
 .list__desciption{
-    font-size: 14px;
+    font-size: 20px;
 }
