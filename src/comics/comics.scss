@@ -1,0 +1,27 @@
+.comics__field {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+
+}
+.comics__title {
+    color: black;
+    font-size: 40px;
+    margin-left: 15px;
+}
+.comics__count {
+    color: gray;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.comics__items {
+    display: inline;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 650px;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+

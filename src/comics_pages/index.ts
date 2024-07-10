@@ -1,0 +1,1 @@
+export { ComicsPages } from './comics_pages';
